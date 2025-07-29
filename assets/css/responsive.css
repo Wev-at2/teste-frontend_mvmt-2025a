@@ -272,6 +272,7 @@
         display: grid;
         grid-template-columns: 2rem 1fr 1fr 2rem;
         padding: 0;
+        height: 120vh;
     }
 
     .hero .hero__content {
@@ -310,5 +311,8 @@
     .hero .hero__container .hero__box-subtitle {
         font-size: 3rem;
         color: var(--secondary-color);
+    }
+    .hero .hero__bg-video {
+        height: 120vh;
     }
 }
