@@ -1,0 +1,86 @@
+:root {
+    /* //// TYPOGRAPHY //// */
+    --font-family-base: "Schibsted Grotesk", sans-serif;
+    --font-family-other-1: "Schibsted Grotesk", sans-serif;
+
+    --font-size-smaller: 0.625rem; /* 10px */
+    --font-size-small: 0.75rem; /* 12px */
+    --font-size-medium: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-subtitle: 1.125rem; /* 18px */
+    --font-size-big: 1.5rem; /* 24px */
+    --font-size-bigx: 1.75rem; /* 28px */
+    --font-size-title: 2rem; /* 32px */
+    --font-size-giant: 4rem; /* 64px */
+
+    --font-weight-lighter: 100;
+    --font-weight-light: 300;
+    --font-weight-regular: 500;
+    --font-weight-bold: 700;
+    --font-weight-ultrabold: 900;
+
+    --line-height-small: 1;
+    --line-height-medium: 1.5;
+    --line-height-big: 2;
+
+    /* //// COLORS //// */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-red: #ff0000;
+    --color-purple: #340d4c;
+    --color-orange: #C47C5A;
+    --color-blue: #1D252D;
+    
+
+    --color-gray-1: #efefef;
+    --color-gray-2: #d9d9d9;
+    --color-gray-3: #cccccc;
+    --color-gray-4: #808080;
+    --color-gray-5: #383838;
+    --color-gray-6: #333333;
+
+    --color-black-transparency: #000000b3;
+    --color-white-transparency: #ffffffb3;
+    --color-white-transparency-2: #ffffff3d;
+
+    --color-linear-gradient-1: linear-gradient(0deg,
+            var(--color-blue-1) 0%,
+            var(--color-blue-2) 60%);
+    --color-linear-gradient-2: linear-gradient(0deg,
+            var(--color-black) 0%,
+            var(--color-blue-1) 50%,
+            var(--color-black) 100%);
+    --color-linear-gradient-3: linear-gradient(180deg,
+            var(--color-black) 0%,
+            var(--color-blue-1) 30%,
+            var(--color-black) 80%);
+    --color-radial-gradient-1: radial-gradient(circle,
+            var(--color-blue-1) 0%,
+            var(--color-black) 20%);
+
+    --color-matching-1: var(--color-blue-3);
+    --color-matching-2: var(--color-blue-1);
+    --color-matching-3: var(--color-golden-3);
+    --color-matching-4: var(--color-golden-2);
+    --color-matching-5: var(--color-gray-3);
+    --color-matching-6: var(--color-gray-6);
+
+    --main-bg-color: var(--color-white);
+    --primary-color: var(--color-orange);
+    --secondary-color: var(--color-white);
+
+    /* //// TRANSITIONS //// */
+    --transition: all 0.4s ease;
+    --transition-1s: all 1s ease;
+
+    /* //// BOX-SHADOW //// */
+    --boxshadow-hover-1: 1px 1px 20px -2px var(--color-white-transparency);
+    --boxshadow-slide-golden_down: inset 0 100px 0 0 var(--primary-color);
+    --boxshadow-slide-golden_right: inset 400px 0 0 0 var(--primary-color);
+    --boxshadow-slide-golden_left: inset 0 0 0 50px var(--primary-color);
+    --boxshadow-slide-golden_diagonal: inset 400px 50px 0 0 var(--primary-color);
+    --boxshadow-slide-white_down: inset 0 100px 0 0 var(--secondary-color);
+    --boxshadow-slide-white_right: inset 400px 0 0 0 var(--secondary-color);
+    --boxshadow-slide-white_left: inset 0 0 0 50px var(--secondary-color);
+    --boxshadow-slide-white_diagonal: inset 400px 50px 0 0 var(--secondary-color);
+}
